@@ -1,0 +1,16 @@
+{
+  "name": "prospect-mail-smtp-worker",
+  "version": "1.0.0",
+  "description": "Tiny HTTPS->SMTP relay used by Prospect Mail Manager. Receives signed JSON requests from the app and sends via Nodemailer using the caller-supplied SMTP credentials.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
